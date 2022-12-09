@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>BakeCake</title>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+	<div class="wrapper">
+		<!-- header -->
+		<header class="header">
+			<div class="container">
+				<nav class="header__navigation">
+					<a href="#" class="header__logo">
+						<img src="img/logo.svg" alt="Logo`s site">
+					</a>
+					<ul class="header__list">
+						<li><a href="#home" class="header__link">Головна</a></li>
+						<li><a href="#catalog" class="header__link">Каталог</a></li>
+						<li><a href="#reviews" class="header__link">Відгуки</a></li>
+						<li><a href="#contacts" class="header__link">Контакти</a></li>
+					</ul>
+					<span class="header__cart icon-cart"></span>
+					<div class="header__burger">
+						<span></span>
+					</div>
+				</nav>
+			</div>
+		</header>
+		<main class="page">
+			<!-- promo section -->
+			<section id="home" class="promo">
+				<div class="container">
+					<div class="promo__head">
+						<div class="promo__body">
+							<h1 class="promo__title"><span>КОРИСНІ</span> ТОРТИ ТА ВИПІЧКА</h1>
+							<div class="promo__descript">Насолодись десертом з натуральним складом без шкоди для здоров’я</div>
+							<button class="promo__btn btn animation-btn">Замовити десерт</button>
+						</div>
+						<div class="promo__image">
+							<img src="img/promo/cack.png" alt="Cake image">
+							<div class="promo__label"><span>Якість 100%</span></div>
+						</div>
+					</div>
+					<div class="promo__benefits">
+						<div class="promo__card">
+							<div class="promo__image-ingredient">
+								<img src="img/promo/sugar.png" alt="sugar">
+							</div>
+							<div class="promo__suptitle">Без цукру</div>
+						</div>
+						<div class="promo__card">
+							<div class="promo__image-ingredient">
+								<img src="img/promo/wheat.png" alt="wheat">
+							</div>
+							<div class="promo__suptitle">Без глютену</div>
+						</div>
+						<div class="promo__card">
+							<div class="promo__image-ingredient">
+								<img src="img/promo/milk.png" alt="milk">
+							</div>
+							<div class="promo__suptitle">Без лактози</div>
+                  </div>
+					</div>
+				</div>
+			</section>
+			<!-- products section -->
+			<section id="catalog" class="products">
+				<div class="container">
+					<h2 class="products__title title">КАТАЛОГ</h2>
+					<ul class="products__slick-dots-2">
+						<li><button class="products__slider-nav active" data-slide="0">Торти</button></li>
+						<li><button class="products__slider-nav" data-slide="3">Шоколад без цукру</button></li>
+						<li><button class="products__slider-nav" data-slide="6">Випічка</button></li>
+						<li><button class="products__slider-nav" data-slide="9">Капкейки</button></li>
+					</ul>
+					<div class="products__slider slider">
+						<div class="slider__item">
+							<div class="slider__card card">
+								<div class="card__weight">1000 грам</div>
+								<div class="card__image">
+									<img src="img/catalog/cake1.png" alt="Cake">
+								</div>
+								<h3 class="card__title">Бісквітний торт з шоколадом</h3>
+								<div class="card__characteristic">
+									<div class="card__column">
+										<div class="card__value">202</div>
+										<div class="card__label">ккал</div>
+									</div>
+									<div class="card__column">
+										<div class="card__value">8/10/20</div>
+										<div class="card__label">б/ж/у</div>
+									</div>
+									<div class="card__column">
+										<div class="card__value">1100</div>
+										<div class="card__label">гривень</div>
+									</div>
+								</div>
+								<button class="card__btn icon-cart wobble-hor-bottom "></button>
+							</div>
+						</div>
+						<div class="slider__item">
+							<div class="slider__card card">
+								<div class="card__weight">1200<br> грам</div>
+								<div class="card__image">
+									<img src="img/catalog/cake2.png" alt="Cake">
+								</div>
+								<h3 class="card__title">Торт з ягідною начинкою</h3>
+								<div class="card__characteristic">
+									<div class="card__column">
+										<div class="card__value">192</div>
+										<div class="card__label">ккал</div>
+									</div>
+									<div class="card__column">
+										<div class="card__value">11/12/10</div>
+										<div class="card__label">б/ж/у</div>
+									</div>
+									<div class="card__column">
+										<div class="card__value">1430</div>
+										<div class="card__label">гривень</div>
+									</div>
+								</div>
+								<button class="card__btn icon-cart wobble-hor-bottom "></button>
+							</div>
+						</div>
+						<div class="slider__item">
+							<div class="slider__card card">
+								<div class="card__weight">1110<br> грам</div>
+								<div class="card__image">
+									<img src="img/catalog/cake3.png" alt="Cake">
+								</div>
+								<h3 class="card__title">Торт з крихтами печива</h3>
+								<div class="card__characteristic">
+									<div class="card__column">
+										<div class="card__value">212</div>
+										<div class="card__label">ккал</div>
+									</div>
+									<div class="card__column">
+										<div class="card__value">10/12/16</div>
+										<div class="card__label">б/ж/у</div>
+									</div>
+									<div class="card__column">
+										<div class="card__value">1250</div>
+										<div class="card__label">гривень</div>
+									</div>
+								</div>
+								<button class="card__btn icon-cart wobble-hor-bottom "></button>
+							</div>
+						</div>
+						<div class="slider__item">
+							<div class="slider__card card">
+								<div class="card__weight">90<br> грам</div>
+								<div class="card__image">
+									<img src="img/catalog/chocolate1.png" alt="Chocolate">
+								</div>
+								<h3 class="card__title">Чорний шоколад з ізюмом</h3>
+								<div class="card__characteristic">
+									<div class="card__column">
+										<div class="card__value">106</div>
+										<div class="card__label">ккал</div>
+									</div>
+									<div class="card__column">
+										<div class="card__value">4/6/9</div>
+										<div class="card__label">б/ж/у</div>
+									</div>
+									<div class="card__column">
+										<div class="card__value">100</div>
+										<div class="card__label">гривень</div>
+									</div>
+								</div>
+								<button class="card__btn icon-cart wobble-hor-bottom "></button>
+							</div>
+						</div>
+						<div class="slider__item">
+							<div class="slider__card card">
+								<div class="card__weight">110<br> грам</div>
+								<div class="card__image">
+									<img src="img/catalog/chocolate2.png" alt="Chocolate">
+								</div>
+								<h3 class="card__title">Молочний шоколад з м'ятою</h3>
+								<div class="card__characteristic">
+									<div class="card__column">
+										<div class="card__value">111</div>
+										<div class="card__label">ккал</div>
+									</div>
+									<div class="card__column">
+										<div class="card__value">3/7/9</div>
+										<div class="card__label">б/ж/у</div>
+									</div>
+									<div class="card__column">
+										<div class="card__value">120</div>
+										<div class="card__label">гривень</div>
+									</div>
+								</div>
+								<button class="card__btn icon-cart wobble-hor-bottom "></button>
+							</div>
+						</div>
+						<div class="slider__item">
+							<div class="slider__card card">
+								<div class="card__weight">115<br> грам</div>
+								<div class="card__image">
+									<img src="img/catalog/chocolate3.png" alt="Chocolate">
+								</div>
+								<h3 class="card__title">Чорний шоколад з мигдалем</h3>
+								<div class="card__characteristic">
+									<div class="card__column">
+										<div class="card__value">112</div>
+										<div class="card__label">ккал</div>
+									</div>
+									<div class="card__column">
+										<div class="card__value">3/8/7</div>
+										<div class="card__label">б/ж/у</div>
+									</div>
+									<div class="card__column">
+										<div class="card__value">115</div>
+										<div class="card__label">гривень</div>
+									</div>
+								</div>
+								<button class="card__btn icon-cart wobble-hor-bottom "></button>
+							</div>
+						</div>
+						<div class="slider__item">
+							<div class="slider__card card">
+								<div class="card__weight">12<br> грам</div>
+								<div class="card__image">
+									<img src="img/catalog/baking1.png" alt="Baking">
+								</div>
+								<h3 class="card__title">Печиво з сухофруктами</h3>
+								<div class="card__characteristic">
+									<div class="card__column">
+										<div class="card__value">156</div>
+										<div class="card__label">ккал</div>
+									</div>
+									<div class="card__column">
+										<div class="card__value">6/12/6</div>
+										<div class="card__label">б/ж/у</div>
+									</div>
+									<div class="card__column">
+										<div class="card__value">100</div>
+										<div class="card__label">гривень</div>
+									</div>
+								</div>
+								<button class="card__btn icon-cart wobble-hor-bottom "></button>
+							</div>
+						</div>
+						<div class="slider__item">
+							<div class="slider__card card">
+								<div class="card__weight">250<br> грам</div>
+								<div class="card__image">
+									<img src="img/catalog/baking2.png" alt="Baking">
+								</div>
+								<h3 class="card__title">Голландські вафлі з ягодами</h3>
+								<div class="card__characteristic">
+									<div class="card__column">
+										<div class="card__value">127</div>
+										<div class="card__label">ккал</div>
+									</div>
+									<div class="card__column">
+										<div class="card__value">7/7/9</div>
+										<div class="card__label">б/ж/у</div>
+									</div>
+									<div class="card__column">
+										<div class="card__value">150</div>
+										<div class="card__label">гривень</div>
+									</div>
+								</div>
+								<button class="card__btn icon-cart wobble-hor-bottom "></button>
+							</div>
+						</div>
+						<div class="slider__item">
+							<div class="slider__card card">
+								<div class="card__weight">80<br> грам</div>
+								<div class="card__image">
+									<img src="img/catalog/baking3.png" alt="Baking">
+								</div>
+								<h3 class="card__title">Круасан з шоколадною пастою</h3>
+								<div class="card__characteristic">
+									<div class="card__column">
+										<div class="card__value">143</div>
+										<div class="card__label">ккал</div>
+									</div>
+									<div class="card__column">
+										<div class="card__value">10/7/10</div>
+										<div class="card__label">б/ж/у</div>
+									</div>
+									<div class="card__column">
+										<div class="card__value">120</div>
+										<div class="card__label">гривень</div>
+									</div>
+								</div>
+								<button class="card__btn icon-cart wobble-hor-bottom "></button>
+							</div>
+						</div>
+						<div class="slider__item">
+							<div class="slider__card card">
+								<div class="card__weight">65<br> грам</div>
+								<div class="card__image">
+									<img src="img/catalog/cupcake1.png" alt="Cupcake">
+								</div>
+								<h3 class="card__title">Ванільний капкейк</h3>
+								<div class="card__characteristic">
+									<div class="card__column">
+										<div class="card__value">100</div>
+										<div class="card__label">ккал</div>
+									</div>
+									<div class="card__column">
+										<div class="card__value">9/4/7</div>
+										<div class="card__label">б/ж/у</div>
+									</div>
+									<div class="card__column">
+										<div class="card__value">105</div>
+										<div class="card__label">гривень</div>
+									</div>
+								</div>
+								<button class="card__btn icon-cart wobble-hor-bottom "></button>
+							</div>
+						</div>
+						<div class="slider__item">
+							<div class="slider__card card">
+								<div class="card__weight">70<br> грам</div>
+								<div class="card__image">
+									<img src="img/catalog/cupcake2.png" alt="Cupcake">
+								</div>
+								<h3 class="card__title">Шоколадний капкейк</h3>
+								<div class="card__characteristic">
+									<div class="card__column">
+										<div class="card__value">104</div>
+										<div class="card__label">ккал</div>
+									</div>
+									<div class="card__column">
+										<div class="card__value">9/4/8</div>
+										<div class="card__label">б/ж/у</div>
+									</div>
+									<div class="card__column">
+										<div class="card__value">110</div>
+										<div class="card__label">гривень</div>
+									</div>
+								</div>
+								<button class="card__btn icon-cart wobble-hor-bottom "></button>
+							</div>
+						</div>
+						<div class="slider__item">
+							<div class="slider__card card">
+								<div class="card__weight">65<br> грам</div>
+								<div class="card__image">
+									<img src="img/catalog/cupcake3.png" alt="Cupcake">
+								</div>
+								<h3 class="card__title">Ягідний капкейк</h3>
+								<div class="card__characteristic">
+									<div class="card__column">
+										<div class="card__value">165</div>
+										<div class="card__label">ккал</div>
+									</div>
+									<div class="card__column">
+										<div class="card__value">8/4/8</div>
+										<div class="card__label">б/ж/у</div>
+									</div>
+									<div class="card__column">
+										<div class="card__value">105</div>
+										<div class="card__label">гривень</div>
+									</div>
+								</div>
+								<button class="card__btn icon-cart wobble-hor-bottom "></button>
+							</div>
+						</div>
+					</div>
+					<button class="products__btn btn animation-btn">Замовити десерт</button>
+				</div>
+			</section>
+			<!-- benefits section -->
+			<section class="benefits">
+				<div class="container">
+					<h2 class="benefits__title title">ПЕРЕВАГИ</h2>
+					<div class="benefits__suptitle title title_suptitle">НАШИХ ДЕСЕРТІВ</div>
+					<div class="benefits__row">
+						<div class="benefits__column benefits__column_left">
+							<div class="benefits__card">
+								<div class="benefits__image">
+									<img src="img/benefits/Ingredients1.png" alt="Barries">
+								</div>
+								<div class="benefits__label">Свіжі ягоди</div>
+							</div>
+							<div class="benefits__card benefits__card_flex-start">
+								<div class="benefits__image">
+									<img src="img/benefits/Ingredients2.png" alt="Nuts">
+								</div>
+								<div class="benefits__label">Відбірні горіхи</div>
+							</div>
+							<div class="benefits__card">
+								<div class="benefits__image">
+									<img src="img/benefits/Ingredients3.png" alt="Honey">
+								</div>
+								<div class="benefits__label">Натуральний мед</div>
+							</div>
+						</div>
+						<div class="benefits__column benefits__column_flex-just-align-center">
+							<img src="img/benefits/Dessert.png" alt="Cake">
+						</div>
+						<div class="benefits__column benefits__column_right">
+							<div class="benefits__card">
+								<div class="benefits__image">
+									<img src="img/benefits/Ingredients4.png" alt="DriedFruits">
+								</div>
+								<div class="benefits__label">Сухофрукти</div>
+							</div>
+							<div class="benefits__card benefits__card_flex-end">
+								<div class="benefits__image">
+									<img src="img/benefits/Ingredients5.png" alt="Flour">
+								</div>
+								<div class="benefits__label">Безглютенова мука</div>
+							</div>
+							<div class="benefits__card">
+								<div class="benefits__image">
+									<img src="img/benefits/Ingredients6.png" alt="Fruits">
+								</div>
+								<div class="benefits__label">Свіжі фрукти</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- reviews -->
+			<section id="reviews" class="reviews">
+				<div class="container">
+					<h2 class="reviews__title title">ЩО ПРО НАС ГОВОРЯТЬ</h2>
+					<div class="reviews__suptitle title title_suptitle">КЛІЄНТИ</div>
+					<div class="reviews__row">
+						<div class="reviews__column">
+							<div class="reviews__image">
+								<img src="img/feedback/person1.jpg" alt="Person">
+							</div>
+							<div class="reviews__box">
+								<div class="reviews__name-person">Єлизавета, 21 рік</div>
+								<div class="reviews__text">
+									Замовляла шоколад з м’ятою та шоколад з ізюмом. Дуже смачний, довго зберігався в
+									холодильнику, але на смак це не вплинуло. Хочу також подякувати за ввічливий сервіс. З
+									усмішкою відповіли на всі мої запитання.
+								</div>
+							</div>
+						</div>
+						<div class="reviews__column">
+							<div class="reviews__image">
+								<img src="img/feedback/person2.jpg" alt="Person">
+							</div>
+							<div class="reviews__box">
+								<div class="reviews__name-person">Дар'я, 35 років </div>
+								<div class="reviews__text">
+									Дуже вдячна за поміч у виборі капкейків. Замовляла набір з 6 штук ягідних капкейків. Уся моя
+									родина намагається відмовитись від доданого цукру, а солодощі від BakeCake нам у цьому допомогають.
+								</div>
+							</div>
+						</div>
+						<div class="reviews__column">
+							<div class="reviews__image">
+								<img src="img/feedback/person3.jpg" alt="Person">
+							</div>
+							<div class="reviews__box">
+								<div class="reviews__name-person">Владислав, 25 років</div>
+								<div class="reviews__text">
+									Замовляв шоколадний торт на День народження дівчині. Вона слідкує за фігорою, тому обирає
+									солодощі з правильним складом. Можу сміливо рекомендувати BakeCake, це не тільки гарно, але й
+									смачно.
+								</div>
+							</div>
+						</div>
+						<div class="reviews__column">
+							<div class="reviews__image">
+								<img src="img/feedback/person4.jpg" alt="Person">
+							</div>
+							<div class="reviews__box">
+								<div class="reviews__name-person">Дмитро, 44 роки</div>
+								<div class="reviews__text">
+									Ми живемо в час вибору. Я обираю турбуватися про своє здоров’я, тому ввідаю перевагу десертам
+									без лактози. За традицією на сніданок замовляю голландські вафлі з ягодами. Цікаве поєднання,
+									мені було смачно.
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- order -->
+			<section class="order">
+				<div class="container">
+					<h2 class="order__title title">ЗАМОВЛЯЙ ДЕСЕРТ ПРЯМО ЗАРАЗ </h2>
+					<div class="order__suptitle title title_suptitle">ТА ОТРИМАЙ ЗНИЖКУ 5% НА НАСТУПНЕ ЗАМОВЛЕННЯ</div>
+					<div class="order__row">
+						<div class="order__image">
+							<img src="img/order-cake.png" alt="Cake">
+						</div>
+						<div class="order__card-order card-order">
+							<div class="card-order__title">Залиште заявку</div>
+							<div class="card-order__descript">та ми передзвонимо Вам протягом 10 хвилин</div>
+							<form action="#" id="order-form" class="card-order__form form">
+								<input name="userName" type="text" class="form__input" placeholder="Ваше ім’я">
+								<input name="userPhone" type="text" class="form__input" placeholder="+38 (000) 000 000 0">
+								<button class="form__btn btn animation-btn">Залишити заявку</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<!-- footer -->
+		<footer id="contacts" class="footer">
+			<div class="container">
+				<h2 class="footer__title title">НАШІ КОНТАКТИ</h2>
+				<div class="footer__row">
+					<div class="footer__column">
+						<div class="footer__label">Адреса:</div>
+						<address class="footer__info footer__info_max-w135">м. Харків<br>вул.Сумська,71</address>
+					</div>
+					<div class="footer__column">
+						<div class="footer__label">Контакти:</div>
+						<a class="footer__info" href="tel:+380504569871">+380504569871</a>
+						<a class="footer__info" href="tel:+380993248915">+380993248915</a>
+					</div>
+					<div class="footer__column">
+						<div class="footer__label">Ел. пошта:</div>
+						<a class="footer__info" href="mailto:bakecake@gmail.com">bakecake@gmail.com</a>
+						<a class="footer__info" href="mailto:bakecake71@gmail.com">bakecake71@gmail.com</a>
+					</div>
+				</div>
+				<div class="footer__preview">
+					<div class="footer__google-map">
+						<iframe
+							src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2564.018595111612!2d36.23912191557705!3d50.01100667941719!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4127a0d9a90a6a7f%3A0x22587d23c85ee388!2z0YPQuy4g0KHRg9C80YHQutCw0Y8sIDcxLCDQpdCw0YDRjNC60L7Qsiwg0KXQsNGA0YzQutC-0LLRgdC60LDRjyDQvtCx0LvQsNGB0YLRjCwgNjEwMDA!5e0!3m2!1sru!2sua!4v1667920103922!5m2!1sru!2sua"
+							style="border:0;" allowfullscreen="" loading="lazy"
+							referrerpolicy="no-referrer-when-downgrade"></iframe>
+					</div>
+					<div class="footer__images">
+						<div class="footer__image"><img src="img/preview/preview1.png" alt="Preview"></div>
+						<div class="footer__image"><img src="img/preview/preview2.png" alt="Preview"></div>
+						<div class="footer__image"><img src="img/preview/preview3.png" alt="Preview"></div>
+						<div class="footer__image"><img src="img/preview/preview4.png" alt="Preview"></div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/jquery.validate.min.js"></script>
+	<script src="js/jquery.maskedinput.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+
+</html>
