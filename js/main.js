@@ -54,7 +54,7 @@ $(document).ready(function () {
 			$('body').removeClass('lock');
 			$('html, body').animate({
 				scrollTop: $(hash).offset().top
-			}, 100, function () {
+			}, 800, function () {
 				window.location.hash = hash;
 			});
 		}

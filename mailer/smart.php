@@ -24,7 +24,7 @@ $mail->isHTML(true);                                  // Set email format to HTM
 
 $mail->Subject = 'Данные';
 $mail->Body    = '
-		Пользователь оставил данные <br> 
+	Пользователь оставил данные <br> 
 	Имя: ' . $name . ' <br>
 	Номер телефона: ' . $phone;
 

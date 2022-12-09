@@ -42,7 +42,7 @@
 		font-size: 40px;
 	}
 }
-@media (max-width: 767px) {
+@media (max-width: 768px) {
 	.title {
 		font-size: 40px;
 	}
@@ -107,7 +107,7 @@
 	font-size: 20px;
 	text-align: center;
 	color: #fff;
-    margin-bottom: 20px;
+   margin-bottom: 20px;
 }
 .form__btn {
 	display: block;

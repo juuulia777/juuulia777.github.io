@@ -6,6 +6,9 @@
 @import 'icon-font.css';
 @import 'animation.css';
 
+body.lock {
+	overflow: hidden;
+}
 
 /* header */
 .header {
@@ -123,7 +126,7 @@
 		transform: scaleX(1);
 	}
 }
-@media (max-width: 767.98px) {
+@media (max-width: 768px) {
 	.header {
 		padding: 5px 0px;
 	}
@@ -335,7 +338,7 @@
 		gap: 60px 110px;
 	}
 }
-@media (max-width: 767px) {
+@media (max-width: 768px) {
 	.promo {
 		padding-bottom: 40px;
 	}
@@ -741,7 +744,7 @@
 		margin-bottom: 30px;
 	}
 }
-@media (max-width: 767px) {
+@media (max-width: 768px) {
 	.reviews {
 		padding: 40px 0px;
 	}
@@ -823,7 +826,7 @@
 		column-gap: 40px;
 	}
 }
-@media (max-width: 767px) {
+@media (max-width: 768px) {
 	.order {
 		padding: 40px 0px;
 	}
@@ -944,7 +947,7 @@
 		display: none;
 	}
 }
-@media (max-width: 767px) {
+@media (max-width: 768px) {
 	.footer {
 		padding: 40px 0px;
 	}
@@ -968,7 +971,7 @@
 		justify-content: center;
 	}
 }
-@media (max-width: 575.98px) {
+@media (max-width: 576px) {
 	.footer__row {
 		display: block;
 		max-width: 200px;
