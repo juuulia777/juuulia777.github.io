@@ -60,6 +60,14 @@ $(document).ready(function () {
 		}
 	});
 
+   window.addEventListener(
+      'orientationchange',
+      function () {
+        $('body').removeClass('lock');
+      },
+      false
+    );
+
 	$('#order-form').validate({
 		rules: {
 			userName: {
