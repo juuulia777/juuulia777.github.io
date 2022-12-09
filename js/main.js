@@ -5,7 +5,6 @@ $(document).ready(function () {
 	});
 
 
-
 	const slider = $('.slider').slick({
 		arrows: true,
 		dots: false,
@@ -59,11 +58,12 @@ $(document).ready(function () {
 			});
 		}
 	});
-
+   
    window.addEventListener(
       'orientationchange',
       function () {
         $('body').removeClass('lock');
+        $('.header__burger, .header__list').removeClass('active');
       },
       false
     );
