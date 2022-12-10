@@ -11,7 +11,7 @@ $(document).ready(function () {
 		slidesToShow: 3,
 		slidesToScroll: 3,
 		speed: 1000,
-		// autoplay: true,
+		autoplay: true,
 		autoplaySpeed: 3000,
 		touchThreshold: 8,
 		responsive: [
@@ -49,8 +49,6 @@ $(document).ready(function () {
 		if (this.hash !== "") {
 			event.preventDefault();
 			var hash = this.hash;
-			$('.header__burger, .header__list').removeClass('active');
-			$('body').removeClass('lock');
 			$('html, body').animate({
 				scrollTop: $(hash).offset().top
 			}, 800, function () {

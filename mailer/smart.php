@@ -23,7 +23,7 @@ $mail->addAddress('2002julia247681@gmail.com');     // Add a recipient
 $mail->isHTML(true);                                  // Set email format to HTML
 
 $mail->Subject = 'Дані';
-$mail->Body    = '
+$mail->Body  = '
 	Користувач залишив дані <br> 
 	Ім`я: ' . $name . ' <br>
 	Номер телефону: ' . $phone;
