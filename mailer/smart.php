@@ -22,11 +22,11 @@ $mail->addAddress('2002julia247681@gmail.com');     // Add a recipient
 
 $mail->isHTML(true);                                  // Set email format to HTML
 
-$mail->Subject = 'Данные';
+$mail->Subject = 'Дані';
 $mail->Body    = '
-	Пользователь оставил данные <br> 
-	Имя: ' . $name . ' <br>
-	Номер телефона: ' . $phone;
+	Користувач залишив дані <br> 
+	Ім`я: ' . $name . ' <br>
+	Номер телефону: ' . $phone;
 
 if(!$mail->send()) {
     return false;
